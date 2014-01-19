@@ -20,15 +20,15 @@ msgstr ""
 #: api/views.py:429
 #, python-format
 msgid "%s is not a valid points"
-msgstr "%s n'est pas une valeure valide"
+msgstr "%s n'est pas une valeur valide"
 
 #: api/views.py:461
 msgid "Missing name attribute"
-msgstr "Attribute name est manquant"
+msgstr "L'attribut 'name' est manquant"
 
 #: api/views.py:466
 msgid "Missing value attribute"
-msgstr "Attribut value est manquant"
+msgstr "L'attribut 'value' est manquant"
 
 #: api/views.py:476
 #, python-format
@@ -83,6 +83,7 @@ msgstr "Backlog"
 #: backlog/excel.py:39 backlog/models.py:646
 msgid "acceptances"
 msgstr "approbations"
+#TODO: Where is it used ?
 
 #: backlog/excel.py:40 backlog/models.py:645
 #: backlog/templates/backlog/story_detail.html:36
@@ -101,6 +102,7 @@ msgstr "Estimation en points"
 #: backlog/forms.py:122
 msgid "be able to input text here"
 msgstr "pouvoir saisir du texte ici"
+#TODO: Where is it used ?
 
 #: backlog/forms.py:124
 msgid "write user stories"
@@ -108,7 +110,8 @@ msgstr "écrire des user stories"
 
 #: backlog/forms.py:126
 msgid "- user story readable by human"
-msgstr "- user story lisible par des humains"
+msgstr "- user story lisible par un tiers"
+#TODO: Where is it used ?
 
 #: backlog/forms.py:128
 msgid "Use markdown list format: line with '-' in front"
@@ -127,6 +130,7 @@ msgstr "Administrateur"
 #: backlog/forms.py:195
 msgid "Grant administrator role"
 msgstr "Role administrateur"
+#TODO: Where is it used (missing Grant) ?
 
 #: backlog/models.py:40 backlog/models.py:529
 msgid "To do"
@@ -134,7 +138,7 @@ msgstr "A faire"
 
 #: backlog/models.py:41
 msgid "In progress"
-msgstr "En progression"
+msgstr "En cours"
 
 #: backlog/models.py:42 backlog/models.py:530
 msgid "Completed"
@@ -151,7 +155,7 @@ msgstr "Refusée"
 
 #: backlog/models.py:128
 msgid "Ability to modify projects and its user stories"
-msgstr "Autorise la modification des projets et de ses user stories"
+msgstr "Authorise la modification des projets et de ses user stories"
 
 #: backlog/models.py:151
 msgid "Team member"
@@ -186,7 +190,7 @@ msgstr "Actif"
 
 #: backlog/models.py:376
 msgid "Prefix for all stories (maximum 5 characters)"
-msgstr "Préfixe pour tous les user stories (maximum 5 caractères)"
+msgstr "Préfixe pour toutes les user stories (5 caractères maximum)"
 
 #: backlog/models.py:378 backlog/models.py:536 backlog/models.py:762
 #: backlog/templates/backlog/org_sprint_planning.html:3
@@ -200,7 +204,7 @@ msgstr "Dernière modification"
 
 #: backlog/models.py:389 core/models.py:47
 msgid "Language"
-msgstr "Language"
+msgstr "Langage"
 
 #: backlog/models.py:393
 msgid "Archived project are not displayed anymore in planning"
@@ -230,7 +234,8 @@ msgstr "Projet"
 
 #: backlog/models.py:540
 msgid "Kind"
-msgstr "Sorte"
+msgstr "Type"
+#TODO: Where is it used ?
 
 #: backlog/models.py:545
 msgid "Auto status"
@@ -269,6 +274,7 @@ msgstr "Couleur"
 #: backlog/models.py:648
 msgid "Created at"
 msgstr "Créé à"
+#TODO: Where is it used (gender) ?
 
 #: backlog/models.py:749 backlog/templates/backlog/org_users.html:46
 #: backlog/templates/backlog/project_users.html:55
@@ -316,7 +322,7 @@ msgstr "Organisation créée avec succès"
 #: backlog/views.py:804 backlog/views.py:1090 backlog/views.py:1277
 #: dashboard/views.py:193 storymap/views.py:41
 msgid "Not authorized"
-msgstr "Non autorisé "
+msgstr "Non authorisé"
 
 #: backlog/views.py:264
 msgid "Organization successfully updated."
@@ -352,19 +358,19 @@ msgstr "Backlog restauré avec succès"
 
 #: backlog/views.py:618 backlog/views.py:1701
 msgid "Invitation has been sent to {0}."
-msgstr "Une invitation à été envoyée à {0}"
+msgstr "Une invitation a été envoyée à {0}"
 
 #: backlog/views.py:672 backlog/views.py:1799
 msgid "User {0} has been revoked."
-msgstr "L'utilisateur {0} à été révoqué"
+msgstr "L'utilisateur {0} a été révoqué"
 
 #: backlog/views.py:711 backlog/views.py:1061
 msgid "Authorization changed for user {0}"
-msgstr "Autorisation modifiée pour l'utilisateur {0}"
+msgstr "Authorisation modifiée pour l'utilisateur {0}"
 
 #: backlog/views.py:715 backlog/views.py:1065
 msgid "Authorization for user {0} has been changed."
-msgstr "Les autorization de l'utilisateur {0} ont été changées"
+msgstr "Les authorisations de l'utilisateur {0} ont été changées"
 
 #: backlog/views.py:827
 msgid "This is the main backlog for the project."
@@ -392,7 +398,7 @@ msgstr "Projet restauré avec succès"
 
 #: backlog/views.py:1324
 msgid "Backlog successfully set as main."
-msgstr "Backlog assigné avec succès"
+msgstr "Backlog assigné comme principal avec succès"
 
 #: backlog/views.py:1459
 msgid "Story successfully created."
@@ -430,7 +436,7 @@ msgstr "Vous êtes maintenant un membre de cette organisation"
 
 #: backlog/views.py:1844
 msgid "Invitation has been declined"
-msgstr "L'invitation à été déclinée"
+msgstr "L'invitation a été déclinée"
 
 #: backlog/management/commands/easy_import.py:83
 msgid "Accepted stories"
@@ -438,7 +444,7 @@ msgstr "Stories acceptées"
 
 #: backlog/management/commands/easy_import.py:84
 msgid "This is the backlog for accepted stories"
-msgstr "Ceci est le backlog des stories acceptés"
+msgstr "Ceci est le backlog des stories acceptées"
 
 #: backlog/management/commands/easy_import.py:93
 msgid "This is the main backlog for the project"
@@ -483,7 +489,7 @@ msgstr "Supprimer"
 
 #: backlog/templates/backlog/_backlog_lane.html:40
 msgid "current"
-msgstr "courant "
+msgstr "courant"
 
 #: backlog/templates/backlog/_backlog_lane.html:68
 #: backlog/templates/backlog/_backlog_lane.html:96
@@ -495,7 +501,7 @@ msgstr "courant "
 #: backlog/templates/backlog/project_backlogs.html:173
 #: storymap/templates/storymap/storymap_detail.html:255
 msgid "Server return an error."
-msgstr "Le serveur à retourné une erreur"
+msgstr "Le serveur a retourné une erreur"
 
 #: backlog/templates/backlog/_project_tabs.html:3
 #: backlog/templates/backlog/dashboard.html:42
@@ -554,7 +560,7 @@ msgstr "éditer"
 #: dashboard/templates/dashboard/_story_big_cell.html:25
 #: dashboard/templates/dashboard/_story_big_cell.html:40
 msgid "No acceptance criterias"
-msgstr "Aucun critères d'acceptation "
+msgstr "Aucun critère d'acceptation "
 
 #: backlog/templates/backlog/_story_big_cell.html:32
 #: dashboard/templates/dashboard/_story_big_cell.html:32
@@ -603,7 +609,8 @@ msgstr ""
 
 #: backlog/templates/backlog/backlog_confirm_archive.html:13
 msgid "Archived backlogs are not shown in backlog management views"
-msgstr "Les backlogs archivés ne sont pas affichés dans les vue de "
+msgstr "Les backlogs archivés ne sont pas affichés dans les vues de "
+"gestion de backlog"
 
 #: backlog/templates/backlog/backlog_confirm_archive.html:27
 msgid "Archive this backlog"
@@ -687,7 +694,7 @@ msgstr ""
 
 #: backlog/templates/backlog/backlog_confirm_main.html:29
 msgid "Set as main"
-msgstr "Définir comme principal "
+msgstr "Définir comme principal"
 
 #: backlog/templates/backlog/backlog_confirm_restore.html:2
 #: backlog/templates/backlog/backlog_confirm_restore.html:6
@@ -759,7 +766,7 @@ msgid ""
 "organization backlogs</b>"
 msgstr ""
 "Les user stories peuvent être créés uniquement à partir de backlogs de "
-"projets, <b> pas depuis un backlog d'oganization</b>"
+"projets, <b> pas depuis un backlog d'oganisation</b>"
 
 #: backlog/templates/backlog/backlog_detail.html:174
 #: backlog/templates/backlog/org_sprint_planning.html:269
